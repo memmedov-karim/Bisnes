@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:wght@500&family=Roboto:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.general{
+    position:absolute;
+    background-image: url(https://ingmaralbizu.com/wp-content/uploads/2021/02/banner-research-new-idea-award.jpg);
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contanier{
+    display: flex;
+    /* background-color: blueviolet; */
+    margin: 20px;
+    width: 100%;
+    height: 100vh;
+}
+.block{
+    display: flex;
+    justify-content: end;
+    height: 150px;
+    width: 100%;
+    margin-top: 8px;
+    /* background-color: aqua; */
+    background-image: url("");
+}
+.block h1{
+    color: white;
+    display: inline;
+    margin-right: 500px;
+}
+.block h1 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Serif', sans-serif;
+}
+.block h1 a:hover{
+    color: orange;
+}
+
+.block ul{
+        display: flex;
+        
+        margin-top: 13px;
+        
+    }
+.block ul li{
+    
+    list-style: none;
+    margin-right: 50px;
+}
+.block ul li a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: bisque;
+    color: black;
+}
+.block ul li a:hover{
+    background-color: orange;
+    color: white;
+}
+.block1{
+    display: inline;
+    /* flex-wrap: wrap; */
+    /* background-image: url("biznes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width:35%;
+    margin: 15px;
+    
+}
+.block1 img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.block21 img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+.block1 h2{
+    /* display: flex;
+    flex-wrap: wrap; */
+    position: absolute;
+    top: 42%;
+    left: 7.5%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Serif', sans-serif;
+    
+}
+.block21 h3{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Roboto Serif', sans-serif;
+    
+}
+.block1 h3{
+    position: absolute;
+    top: 49%;
+    left: 19.5%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto Serif', sans-serif;
+}
+.block1 a{
+    position: absolute;
+    text-decoration: none;
+    top: 65%;
+    left: 14%;
+    color:black;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    background-color: wheat;
+    border-radius: 50px;
+    padding: 13px 29px;
+    opacity: 0.7;
+}
+.block21 a{
+    position: absolute;
+    text-decoration: none;
+    top: 48%;
+    left: 55%;
+    color: black;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    background-color: wheat;
+    border-radius: 40px;
+    padding: 12px 28px;
+    opacity: 0.6;
+    
+}
+.block1 a:hover{
+    background-color: orange;
+    opacity: 0.8;
+}
+.block21 a:hover{
+    background-color: orange;
+    opacity: 0.8;
+}
+.block2{
+    
+    /* background-color: aqua; */
+    margin: 15px;
+    width: 70%;
+}
+.block21{
+    display: inline;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.block22{
+    display: inline;
+    /* background-color: rgb(105, 103, 99); */
+    opacity: 0.8;
+    height: 100%;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 183, 101);
+}
+.block22:hover{
+    /* background-color: rgb(248, 179, 51); */
+    opacity: 1;
+}
+.block22 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.block22 h1{
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    font-size: 50px;
+}
+.block22 h1 a{
+    text-decoration: none;
+    color: black;
+}
+.block22 h1 a:hover{
+    color: orange;
+}
+.block22 h3{
+    position: absolute;
+    top: 48.5%;
+    left: 79%;
+}
+.block23{
+    display: inline;
+    /* background-color: cadetblue; */
+    height: 100%;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.block23 a img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.block23 a img:hover{
+    opacity: 1;
+}
+.block23 h2{
+    position: absolute;
+    top: 67%;
+    left: 48%;
+}
+.block23 h2 a{
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    background-color: aliceblue;
+    padding: 13px 24px;
+    opacity: 0.7;
+}
+.block23 h2 a:hover{
+    background-color: orange;
+
+}
+.block24{
+    display: inline;
+    /* background-color: rgb(99, 115, 116); */
+    height: 100%;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.block24 a img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.block24 a img:hover{
+    opacity: 1;
+}
+.block_up{
+    display: flex;
+    /* background-color: brown; */
+    height: 45%;
+    margin-left: 10px;
+    margin-bottom: 53.55px;
+    margin-right: 10px;
+    width: 97.5%;
+}
